@@ -28,7 +28,7 @@
 
         <activity
             android:name="com.takwolf.androidcrashshow.CrashShowActivity"
-            android:label="@string/crash_info"
+            android:label="@string/crash_log"
             android:screenOrientation="portrait"
             android:configChanges="orientation|keyboardHidden|screenSize" />
 

@@ -4,6 +4,6 @@
     <string name="app_name">Android程序崩溃显示异常信息页面</string>
     <string name="button01">提示Toast</string>
     <string name="button02">制造异常</string>
-    <string name="crash_info">异常信息</string>
+    <string name="crash_log">崩溃日志</string>
 
 </resources>
