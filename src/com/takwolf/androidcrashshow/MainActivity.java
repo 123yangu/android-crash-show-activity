@@ -22,7 +22,7 @@ public class MainActivity extends Activity {
      * @param view
      */
     public void onBtnToast(View view) {
-    	Toast.makeText(this, "卖萌的提示     o(>_<)o ~~", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "卖萌的提示     o(>_<)o ~~", Toast.LENGTH_SHORT).show();
     }
 
     /**
@@ -30,9 +30,9 @@ public class MainActivity extends Activity {
      * @param view
      */
     public void onBtnException(View view) {
-    	//制造一个数组越界
-    	String[] arr = new String[7];
-    	arr[8].toString(); //此处将报异常
+        //制造一个数组越界
+        String[] arr = new String[7];
+        arr[8].toString(); //此处将报异常
     }
 
 }
