@@ -6,6 +6,7 @@ import java.io.Writer;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
 import android.text.format.Time;
 import android.widget.TextView;
@@ -29,6 +30,10 @@ public class CrashShowActivity extends Activity {
         sb.append("请您及时与开发者取得联系并反馈该问题，此举将有助于我们改善应用体验。");
         sb.append("以此给您带来的诸多不便，我们深表歉意，敬请谅解。\n");
         sb.append("----------------------\n");
+        sb.append("手机型号：\n");
+        sb.append(Build.MODEL + "\n\n");
+        sb.append("系统版本：\n");
+        sb.append(Build.VERSION.RELEASE + "\n\n");
         sb.append("异常时间：\n");
         Time time = new Time();
         time.setToNow();
