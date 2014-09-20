@@ -29,7 +29,9 @@ public class CrashShowActivity extends Activity {
         sb.append("非常抱歉，程序运行过程中出现了一个无法避免的错误。");
         sb.append("请您及时与开发者取得联系并反馈该问题，此举将有助于我们改善应用体验。");
         sb.append("以此给您带来的诸多不便，我们深表歉意，敬请谅解。\n");
-        sb.append("----------------------\n");
+        sb.append("----------------------\n\n");
+        sb.append("生产厂商：\n");
+        sb.append(Build.MANUFACTURER + "\n\n");
         sb.append("手机型号：\n");
         sb.append(Build.MODEL + "\n\n");
         sb.append("系统版本：\n");
