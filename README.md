@@ -1,5 +1,4 @@
-﻿Android Crash Show Activity
-============================
+# Android Crash Show Activity #
 
 Android应用异常后崩溃不提示系统默认对话框，而显示一个友好的异常提示页面，用于向开发者反馈信息。该项目仅提供实现思路，实际项目中可以在此基础上进行扩展。
 
